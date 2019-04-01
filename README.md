@@ -2,6 +2,8 @@
 
 # Tema: Rent a car “.ba”
 
+![logo OOAD](https://user-images.githubusercontent.com/44146663/55323464-6bf04900-547f-11e9-9bce-094dadb3163f.jpg)
+
 Članovi tima:
 
 1.	Amila Hrustić
