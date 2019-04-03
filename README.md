@@ -49,7 +49,7 @@ Uposlenik ima mogućnost dodavanja, brisanja i mijenjanja specifikacija automobi
 
 Sistem se brine za sve ispravnosti unosa.
 
-Notifikacija u slučaju ne postojanja automobila.
+Notifikacija u slučaju nepostojanja automobila.
 
 Menadžer ima mogućnost izmjene cijena automobila.
 
