@@ -28,15 +28,13 @@ Sa desne strane aplikacije će se nalaziti mogućnost prijave kao administrator 
 
 Aplikacija će biti dostupna svima, ali će biti omogućena registracija sa imenom i prezimenom, username-om, e-mailom i passwordom, ili prijava sa username-om i passwordom. 
 
-Korisnik će morati unijeti grad da bi imao mogućnost uvida automobila. 
-
 Pritiskom na dugme “Traži” dobiće prikaz svih automobila prema unijetim informacijama.
 
 U mogućnosti je da sortira listu automobila po želji. 
 
 Samim klikom na automobil biće prikazane sve njegove karakteristike, kao i opcija “Rezerviši”.
 
-Klikom na “Rezerviši” od korisnika se traži prijava ako to već nije urađeno. Pored osnovnih informacija tražiće se i dodatne inforamcije o vozačkom iskustvu. Također je ponuđen izbor načina plaćanja i osiguranja.
+Klikom na “Rezerviši” od korisnika se traži prijava ako to već nije urađeno. Pored osnovnih informacija tražiće se i dodatne informacije o vozačkom iskustvu. Također je ponuđen izbor načina plaćanja i osiguranja.
 
 Uposlenik i menadžer će se morati prijaviti sa određenom šifrom da bi imali uvid u sve informacije.
 
