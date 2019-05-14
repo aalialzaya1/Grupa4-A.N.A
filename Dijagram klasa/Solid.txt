@@ -1,0 +1,18 @@
+SOLID
+
+1.Single Responsibility Principle
+	Prema ovom principu potrebno je da svaka klasa ima samo jednu ulogu. Pri implementaciji ovog principa imamo klasu PretragaPoNecemu 
+	koja nasljeðuje klase ostalih pretraga, koje sadrže metode koje vrše soritiranje po razlièitim zahtjevima.
+
+2.Open/Closed Principle
+	Pod ovim principom podrazumijeva se da klasa koja koristi neku drugu klasu ne smije biti modificirana. Ovaj princpi je ispoštovan i primjer je isti kao i za Dependency Inversion Principle.
+
+3.Liskov Substition Principle
+	Potrebno je da svaka osnovna klasa može biti zamijenjena svojim podtipom bez da to utièe na izvršavanje programa, što je u našem 
+	sluèaju ispoštovano. Moguæe je zamijeniti klasu osoba sa njenim podtipom klijent.
+
+4.Interface Segregation Principle
+	Svaki interfejs obavlja samo jednu vrstu akcije. Za primjer možemo uzeti insterface IObracunRacuna.
+
+5.Dependency Inversion Principle
+	Da bi ovaj princip bio ispunjen potrebno je da pri nasljeðivanju bazna klasa bude apstraktna, a to možemo da vidimo kod klase osoba.
