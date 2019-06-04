@@ -12,9 +12,11 @@
   <ItemGroup>
     <Content Remove="Views\Home\Pocetna.cshtml" />
     <Content Remove="wwwroot\images\pocetnaSlika.jpg" />
+    <Content Remove="wwwroot\images\slikaKontakt.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Views\Home\Pocetna.cshtml" />
     <None Include="wwwroot\images\pocetnaSlika.jpg" />
+    <None Include="wwwroot\images\slikaKontakt.png" />
   </ItemGroup>
 </Project>
