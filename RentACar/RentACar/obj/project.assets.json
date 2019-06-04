@@ -11797,11 +11797,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/amilalakovic/Projects/RentACar/RentACar/RentACar.csproj",
+      "projectUniqueName": "/Users/amilalakovic/Projects/ooad-2018-2019/Grupa4-A.N.A.git/RentACar/RentACar/RentACar.csproj",
       "projectName": "RentACar",
-      "projectPath": "/Users/amilalakovic/Projects/RentACar/RentACar/RentACar.csproj",
+      "projectPath": "/Users/amilalakovic/Projects/ooad-2018-2019/Grupa4-A.N.A.git/RentACar/RentACar/RentACar.csproj",
       "packagesPath": "/Users/amilalakovic/.nuget/packages/",
-      "outputPath": "/Users/amilalakovic/Projects/RentACar/RentACar/obj/",
+      "outputPath": "/Users/amilalakovic/Projects/ooad-2018-2019/Grupa4-A.N.A.git/RentACar/RentACar/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

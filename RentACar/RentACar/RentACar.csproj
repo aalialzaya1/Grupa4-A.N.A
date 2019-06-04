@@ -9,4 +9,12 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Remove="Views\Home\Pocetna.cshtml" />
+    <Content Remove="wwwroot\images\pocetnaSlika.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Views\Home\Pocetna.cshtml" />
+    <None Include="wwwroot\images\pocetnaSlika.jpg" />
+  </ItemGroup>
 </Project>
