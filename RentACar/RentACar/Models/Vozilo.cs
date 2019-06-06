@@ -64,7 +64,7 @@ namespace RentACar.Models
             }
         }
 
-        public VrstaGoriva VrstaGoriva
+        public VrstaGoriva VrstaGoriva1
         {
             get
             {
@@ -96,7 +96,7 @@ namespace RentACar.Models
             }
         }
 
-        public Transmisija Transmisija
+        public Transmisija Transmisija1
         {
             get
             {

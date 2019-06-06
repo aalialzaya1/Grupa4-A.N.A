@@ -94,3 +94,11 @@
 /Users/nasiha/Projects/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/RentACar.dll
 /Users/nasiha/Projects/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/RentACar.pdb
 /Users/nasiha/Projects/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/RentACar.csproj.CopyComplete
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/RentACar.csprojAssemblyReference.cache
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/RentACar.csproj.CoreCompileInputs.cache
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/RentACar.RazorAssemblyInfo.cache
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/RentACar.RazorAssemblyInfo.cs
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/RentACar.AssemblyInfoInputs.cache
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/RentACar.AssemblyInfo.cs
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/RentACar.dll
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/RentACar.pdb
