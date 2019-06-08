@@ -1,12 +1,12 @@
 ﻿using System;
 namespace RentACar.Models
 {
-    public class Rezervacija
+    public class Rezervacija : IRezervisi
     {
         enum NacinPlacanja
         {
-            GOTOVINA,
-            KARTICA
+            URADNJI,
+            SADA
         };
 
         private int id;
@@ -46,6 +46,9 @@ namespace RentACar.Models
             this.DatumVracanja = datumVracanja;
         }
 
-
+        public void rezervisi()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

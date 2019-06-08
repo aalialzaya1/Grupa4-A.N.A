@@ -3,8 +3,17 @@ namespace RentACar.Models
 {
     public class Vozilo
     {
-        public enum VrstaGoriva { Benzin, Dizel };
-        public enum Transmisija { Automatik, Manual, Poluautomatik }
+        public enum VrstaGoriva { 
+            BENZIN, 
+            DIZEL 
+        };
+
+        public enum Transmisija { 
+            AUTOMATIK, 
+            MANUAL, 
+            POLUAUTOMATIK 
+        }
+
         private String naziv;
         private String marka;
         private int brojVrata;

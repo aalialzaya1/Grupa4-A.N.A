@@ -3,6 +3,6 @@ namespace RentACar
 {
     public interface IRegistracija
     {
-        void rezervisi();
+        void registriraj();
     }
 }

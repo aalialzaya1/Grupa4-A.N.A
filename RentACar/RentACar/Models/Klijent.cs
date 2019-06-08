@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace RentACar.Models
 {
-    public class Klijent : Osoba
+    public class Klijent : Osoba, IKlijentObserver, IRezervisi
     {
         private List<int> racuniUBanci = new List<int>();
 
@@ -18,7 +18,14 @@ namespace RentACar.Models
             this.RacuniUBanci = racuniUBanci;
         }
 
-        void rezervisi() { 
+        public void azuriraj(int stanje)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void rezervisi()
+        {
+            throw new NotImplementedException();
         }
     }
 }
