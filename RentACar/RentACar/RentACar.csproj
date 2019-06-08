@@ -19,4 +19,7 @@
     <None Include="wwwroot\images\pocetnaSlika.jpg" />
     <None Include="wwwroot\images\slikaKontakt.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\PretragaKlase\" />
+  </ItemGroup>
 </Project>
