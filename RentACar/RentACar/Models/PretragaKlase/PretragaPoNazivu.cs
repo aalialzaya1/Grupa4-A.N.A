@@ -3,10 +3,11 @@ using System.Collections.Generic;
 
 namespace RentACar.Models.PretragaKlase
 {
-    public class PretragaPoOsnovnojCijeni : PretragaPoNecemu
+    public class PretragaPoNazivu : PretragaPoNecemu
     {
-        public PretragaPoOsnovnojCijeni()
+        public PretragaPoNazivu()
         {
         }
+
     }
 }

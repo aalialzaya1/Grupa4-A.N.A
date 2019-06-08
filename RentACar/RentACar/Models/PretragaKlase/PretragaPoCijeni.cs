@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace RentACar.Models.PretragaKlase
 {
-    public class PretragaPoOsnovnojCijeni : PretragaPoNecemu
+    public class PretragaPoCijeni : PretragaPoNecemu
     {
-        public PretragaPoOsnovnojCijeni()
+        public PretragaPoCijeni()
         {
         }
     }
