@@ -22,19 +22,7 @@ namespace RentACar.Controllers
             return View();
         }
 
-        public IActionResult Kontakt()
-        {
-            ViewData["Message"] = "Informacije: ";
-
-            return View();
-        }
-
         public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        public IActionResult Pocetna()
         {
             return View();
         }

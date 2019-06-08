@@ -56,7 +56,7 @@ namespace RentACar
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Kontakt}/{id?}");
+                    template: "{controller=Uslovi}/{action=Uslovi}/{id?}");
             });
         }
     }

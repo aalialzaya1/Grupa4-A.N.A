@@ -13,13 +13,18 @@
     <Content Remove="Views\Home\Pocetna.cshtml" />
     <Content Remove="wwwroot\images\pocetnaSlika.jpg" />
     <Content Remove="wwwroot\images\slikaKontakt.png" />
+    <Content Remove="Views\Pocetna\Pocetna.cshtml" />
+    <Content Remove="Views\Uslovi\Pocetna.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Views\Home\Pocetna.cshtml" />
     <None Include="wwwroot\images\pocetnaSlika.jpg" />
     <None Include="wwwroot\images\slikaKontakt.png" />
+    <None Include="Views\Pocetna\Pocetna.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\PretragaKlase\" />
+    <Folder Include="Views\Kontakt\" />
+    <Folder Include="Views\Pocetna\" />
+    <Folder Include="Views\Uslovi\" />
   </ItemGroup>
 </Project>
