@@ -15,24 +15,8 @@ namespace RentACar.Models
             this.Naziv = naziv;
         }
 
-        public int Id1 { get => id; set => id = value; }
-        public string Naziv1 { get => naziv; set => naziv = value; }
-
-        public int Id
-        {
-            get
-            {
-                return id;
-            }
-        }
-
-        public String Naziv
-        {
-            get
-            {
-                return naziv;
-            }
-        }
+        public int Id { get => id; set => id = value; }
+        public string Naziv { get => naziv; set => naziv = value; }
 
 
     }
