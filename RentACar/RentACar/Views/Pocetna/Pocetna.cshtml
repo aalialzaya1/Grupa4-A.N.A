@@ -39,10 +39,10 @@
             <div id="menu" class="container">
                 <ul>
                     <li class="current_page_item"><a href="pocetna.html" accesskey="1" title="">POČETNA</a></li>
-                    <li><a href="vozila.html" accesskey="1" title="">VOZILA</a></li>
-                    <li><a href="pretraga.html" accesskey="2" title="">PRETRAGA</a></li>
-                    <li><a href="uslovi.html" accesskey="3" title="">USLOV</a></li>
-                    <li><a href="kontakt.html" accesskey="4" title="">KONTAKT</a></li>
+                    <li><a accesskey="2">@Html.ActionLink("Vozila", "VozilaOnClick", "Vozila", null, new { })</a></li>
+                    <li><a accesskey="3">@Html.ActionLink("Pretraga", "PretragaOnClick", "Pretraga", null, new { })</a></li>
+                    <li><a accesskey="4">@Html.ActionLink("Uslovi", "UsloviOnClick", "Kontakt", null, new { })</a></li>
+                    <li><a accesskey="5">@Html.ActionLink("Kontak", "KontakOnClick", "Kontakt", null, new { })</a></li>
                 </ul>
             </div>
         </div>
@@ -62,7 +62,7 @@
                         DO: <input id="boxDo" type="text" style="width: 156px" />
                     </form>
                 </div>
-                <a onClick="window.open('vozila.html');" class="buttonx" style="width: 100px; height: 24px;">PRETRAGA  </a>
+                <a accesskey="2">@Html.ActionLink("Traži", "VozilaOnClick", "Vozila", null, new { class="buttonx" style="width: 100px; height: 24px;"})</a>
                 &nbsp;
             </ul>
         </div>
