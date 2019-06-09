@@ -11791,23 +11791,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/amilalakovic/.nuget/packages/": {},
+    "/Users/nasiha/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/amilalakovic/Projects/ooad-2018-2019/Grupa4-A.N.A.git/RentACar/RentACar/RentACar.csproj",
+      "projectUniqueName": "/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/RentACar.csproj",
       "projectName": "RentACar",
-      "projectPath": "/Users/amilalakovic/Projects/ooad-2018-2019/Grupa4-A.N.A.git/RentACar/RentACar/RentACar.csproj",
-      "packagesPath": "/Users/amilalakovic/.nuget/packages/",
-      "outputPath": "/Users/amilalakovic/Projects/ooad-2018-2019/Grupa4-A.N.A.git/RentACar/RentACar/obj/",
+      "projectPath": "/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/RentACar.csproj",
+      "packagesPath": "/Users/nasiha/.nuget/packages/",
+      "outputPath": "/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/amilalakovic/.config/NuGet/NuGet.Config"
+        "/Users/nasiha/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"

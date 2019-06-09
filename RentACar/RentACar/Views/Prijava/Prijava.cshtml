@@ -27,7 +27,7 @@
                 <div class="signin-content">
                     <div class="signin-image">
                         <figure><img src="../slike/car2.png" alt="sing up image"></figure>
-                        <a href="registracija.html" class="signup-image-link">Kreiraj račun</a>
+                        @Html.ActionLink("Kreiraj račun", "RegistracijaOnClick", "Prijava", null, new { @class = "signup-image-link" })
                     </div>
 
                     <div class="signin-form">

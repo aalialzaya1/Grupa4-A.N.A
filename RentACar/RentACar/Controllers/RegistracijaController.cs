@@ -9,5 +9,9 @@ namespace RentACar.Controllers
         {
             return View();
         }
+        public IActionResult PrijavaNazadOnClick()
+        {
+            return View("../Prijava/Prijava");
+        }
     }
 }
