@@ -1,12 +1,107 @@
 ﻿@{
     ViewData["Title"] = "Pocetna";
 }
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="js/zaPocetnu.js"></script>
+    <!--[if IE 6]>
+    <link href="default_ie6.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <style type="text/css">
+        .auto-style1 {
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
 <body>
+    <div id="wrapper">
+        <div id="header-wrapper">
+            <div id="header" class="container">
+                <div id="social" style="left: 2px; top: 6em; width: 160px; height: 15px; right: 1038px;">
+                    <ul class="contact">
 
-    <h2>OVO CE BITI POCETNA STRANA</h2>
+                        <li><img src="slike/BiH.png" width="20" height="15" alt="" /><span></span></li>
+                        <li><img src="slike/eng.png" width="20" height="15" alt="" /><span></span></li>
+                        <li><div class="vl"></div></li>
+                        <li><a onClick="window.open('prijava.html');" class="button" style="width: 45px; height: 15px;">PRIJAVA</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="menu" class="container">
+                <ul>
+                    <li class="current_page_item"><a href="pocetna.html" accesskey="1" title="">POČETNA</a></li>
+                    <li><a href="vozila.html" accesskey="1" title="">VOZILA</a></li>
+                    <li><a href="pretraga.html" accesskey="2" title="">PRETRAGA</a></li>
+                    <li><a href="uslovi.html" accesskey="3" title="">USLOV</a></li>
+                    <li><a href="kontakt.html" accesskey="4" title="">KONTAKT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="welcome-wrapper">
+            <ul class="auto-style1">
+                <div id="list" class="dropdown" style="height: 50px">
+                    <select style="width: 166px; height: 30px">
+                        <option value="" disabled selected>GRAD</option>
+                        <option value="1">SARAJEVO</option>
+                        <option value="2">ZENICA</option>
+                        <option value="3">TUZLA</option>
+                    </select>
+                </div>
+                <div id="brzaPretraga">
+                    <form style="width: 435px; height:30px">
+                        OD: <input id="boxOd" type="text" />
+                        DO: <input id="boxDo" type="text" style="width: 156px" />
+                    </form>
+                </div>
+                <a onClick="window.open('vozila.html');" class="buttonx" style="width: 100px; height: 24px;">PRETRAGA  </a>
+                &nbsp;
+            </ul>
+        </div>
+    </div>
+    <div id="page" class="container">
+        <div class="column1">
+            <div class="title">
+                <h2>renault captur</h2>
 
-    <img src="~/images/pocetnaSlika.jpg" alt="Visual Studio" class="img-responsive" />
-
+            </div>
+            <img src="slike/auto1.jpg" width="282" height="150" alt="" />
+            <p>Renault captur je veoma štedljiv, veoma udoban, veoma bezbedan. Odlično ponaša u gradskoj vožnji, ali je jednako ubedljiv i na regionalnim putevima i autoputu. Vrlo je ugodan za vožnju, veoma okretan, ali i dovoljno stabilan, pa će i zahtevniji vozači biti sasvim zadovoljni.</p>
+            <a href="#" class="button">Learn More</a>
+        </div>
+        <div class="column2">
+            <div class="title">
+                <h2>audi a3</h2>
+            </div>
+            <img src="slike/auto2.jpg" width="282" height="150" alt="" />
+            <p>Ovaj uspješni Audijev model sada je još atraktivniji: Audi A3 približava se startnoj liniji s novim sistemima pomoći vozaču i motorima, kao i novo dizajniranim prednjim i zadnjim svjetlima. Novost u unutrašnjosti predstavlja inovativni koncept upotrebe i prikaza informacija.</p>
+            <a href="#" class="button">Learn More</a>
+        </div>
+        <div class="column3">
+            <div class="title">
+                <h2>bmw 3</h2>
+            </div>
+            <img src="slike/auto3.jpg" width="282" height="150" alt="" />
+            <p>BMW serije 3 utjelovljuje koncept sportskog zadovoljstva u vožnji u globalnoj premium srednjoj klasi već više od 40 godina. Odišući dinamičnim dizajnom, agilnim rukovanjem, izuzetnom učinkovitošću i inovativnim značajkama opreme, uzima karakteristična obilježja BMW-a i podiže ih nekoliko razina.</p>
+            <a href="#" class="button">Learn More</a>
+        </div>
+        <div class="column4">
+            <div class="title">
+                <h2>bugatti divo</h2>
+            </div>
+            <img src="slike/auto4.jpg" width="282" height="150" alt="" />
+            <p>Ovaj je model baziran na njegovom prethodniku Chironu koji je zbog svoje superiornosti također podigao mnogo prašine kada se pojavio. No, Divo se može pohvaliti nizom poboljšanja. Idealan za sve ljubitelje brze vožnje.</p>
+            <a href="#" class="button">Learn More</a>
+        </div>
+    </div>
+    <div id="footer">
+        <p>&nbsp;</p>
+    </div>
 </body>
 </html>

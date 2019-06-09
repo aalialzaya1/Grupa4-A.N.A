@@ -11,8 +11,8 @@
 
   <ItemGroup>
     <Content Remove="Views\Home\Pocetna.cshtml" />
-    <Content Remove="wwwroot\images\pocetnaSlika.jpg" />
-    <Content Remove="wwwroot\images\slikaKontakt.png" />
+    <Content Remove="wwwroot\slike\pocetnaSlika.jpg" />
+    <Content Remove="wwwroot\slike\slikaKontakt.png" />
     <Content Remove="Views\Pocetna\Pocetna.cshtml" />
     <Content Remove="Views\Uslovi\Pocetna.cshtml" />
     <Content Remove="Views\Registracija\Pocetna.cshtml" />
@@ -21,8 +21,8 @@
     <Content Remove="Views\Pretraga\Pretraga.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="wwwroot\images\pocetnaSlika.jpg" />
-    <None Include="wwwroot\images\slikaKontakt.png" />
+    <None Include="wwwroot\slike\pocetnaSlika.jpg" />
+    <None Include="wwwroot\slike\slikaKontakt.png" />
     <None Include="Views\Pocetna\Pocetna.cshtml" />
   </ItemGroup>
   <ItemGroup>
