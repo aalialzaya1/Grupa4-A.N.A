@@ -32,7 +32,7 @@
                         <li><img src="slike/BiH.png" width="20" height="15" alt="" /><span></span></li>
                         <li><img src="slike/eng.png" width="20" height="15" alt="" /><span></span></li>
                         <li><div class="vl"></div></li>
-                        <li><a onClick="window.open('Prijava.cshtml');" class="button" style="width: 45px; height: 15px;">PRIJAVA</a></li>
+                        @Html.ActionLink("Prijava", "PrijavaOnClick", "Pocetna", null, new { @class = "button", style = "width: 45px; height: 15px;", type = "button" })
                     </ul>
                 </div>
             </div>

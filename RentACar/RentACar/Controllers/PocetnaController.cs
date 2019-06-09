@@ -7,8 +7,11 @@ namespace RentACar.Controllers
     {
         public IActionResult Pocetna()
         {
-            
             return View();
+        }
+        public IActionResult PrijavaOnClick()
+        {
+            return View("../Prijava/Prijava");
         }
     }
 }
