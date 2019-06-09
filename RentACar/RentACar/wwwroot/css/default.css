@@ -112,10 +112,9 @@ hr {
 
 /** HEADER */
 
-#header-wrapper
-{
-	background: url('slike/pocetnaSlika.jpg');
-	background-size: cover;
+#header-wrapper {
+    background: url('../slike/pocetnaSlika.jpg');
+    background-size: cover;
 }
 
 #header {
