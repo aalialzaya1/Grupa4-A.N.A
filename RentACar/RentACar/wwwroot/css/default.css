@@ -618,9 +618,11 @@ ul.style3 .first {
 	
 		
 	#list{ 
+        padding: 0em 10em 0em 0em;
 	display:inline-block;}
-	
-	#brzaPretraga{
-	 display:inline-block;
-	}
+
+#brzaPretraga {
+    padding: 0em 10em 0em 0em;
+    display: inline-block;
+}
 }
