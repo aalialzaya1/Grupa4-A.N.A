@@ -16,7 +16,6 @@
     <Content Remove="Views\Pocetna\Pocetna.cshtml" />
     <Content Remove="Views\Uslovi\Pocetna.cshtml" />
     <Content Remove="Views\Registracija\Pocetna.cshtml" />
-    <Content Remove="Views\Registracija\Registracija.cshtml" />
     <Content Remove="Views\Pretraga\Pocetna.cshtml" />
     <Content Remove="Views\Pretraga\Pretraga.cshtml" />
   </ItemGroup>
@@ -30,10 +29,14 @@
     <Folder Include="Views\Kontakt\" />
     <Folder Include="Views\Pocetna\" />
     <Folder Include="Views\Uslovi\" />
-    <Folder Include="Views\Registracija\" />
     <Folder Include="Views\Prijava\" />
     <Folder Include="Views\Pretraga\" />
     <Folder Include="Views\Vozila\" />
     <Folder Include="Views\Rezervacija\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Views\Registracija\Registracija.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
   </ItemGroup>
 </Project>

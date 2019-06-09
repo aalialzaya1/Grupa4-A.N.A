@@ -7,6 +7,7 @@ namespace RentACar.Controllers
     {
         public IActionResult Pocetna()
         {
+            
             return View();
         }
     }
