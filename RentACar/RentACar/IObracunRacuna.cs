@@ -5,6 +5,8 @@ namespace RentACar
 {
     public interface IObracunRacuna
     {
+
+
         double obracun(Rezervacija rezervacija);
     }
 }
