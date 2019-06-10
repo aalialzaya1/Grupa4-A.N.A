@@ -43,17 +43,21 @@ Released   : 20131127
                         <li><img src="../slike/BiH.png" width="20" height="15" alt="" /><span></span></li>
                         <li><img src="../slike/eng.png" width="20" height="15" alt="" /><span></span></li>
                         <li><div class="vl"></div></li>
-                        <li><a onClick="window.open('prijava.html');" class="button" style="width: 45px; height: 15px;">PRIJAVA</a></li>
+                        @Html.ActionLink("Prijava", "PrijavaOnClick", "Vozila", null, new { @class = "button", style = "width: 45px; height: 15px;", type = "button" })
                     </ul>
                 </div>
             </div>
             <div id="menu" class="container">
                 <ul>
-                    <li class="current_page_item"><a href="pocetna.html" accesskey="1" title="">POČETNA</a></li>
-                    <li><a href="vozila.html" accesskey="1" title="">VOZILA</a></li>
-                    <li><a href="pretraga.html" accesskey="2" title="">PRETRAGA</a></li>
-                    <li><a href="uslovi.html" accesskey="3" title="">USLOV</a></li>
-                    <li><a href="kontakt.html" accesskey="4" title="">KONTAKT</a></li>
+                    <li><a accesskey="1">@Html.ActionLink("Pocetna", "PocetnaOnClick", "Vozila", null, new { })</a></li>
+
+                    <li><a accesskey="2">@Html.ActionLink("Vozila", "Vozila", "Vozila", null, new { })</a></li>
+
+                    <li><a accesskey="3">@Html.ActionLink("Pretraga", "PretragaOnClick", "Vozila", null, new { })</a></li>
+
+                    <li><a accesskey="4">@Html.ActionLink("Uslovi", "UsloviOnClick", "Vozila", null, new { })</a></li>
+
+                    <li><a accesskey="5">@Html.ActionLink("Kontakt", "KontakOnClick", "Vozila", null, new { })</a></li>
                 </ul>
             </div>
         </div>

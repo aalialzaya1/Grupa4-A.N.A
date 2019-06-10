@@ -16,5 +16,27 @@ namespace RentACar.Controllers
 
             return View();
         }
+        public IActionResult PrijavaOnClick()
+        {
+            return View("../Prijava/Prijava");
+        }
+
+        public IActionResult VozilaOnClick()
+        {
+            return View("../Vozila/Vozila");
+        }
+
+        public IActionResult PretragaOnClick()
+        {
+            return View("../Pretraga/Pretraga");
+        }
+        public IActionResult UsloviOnClick()
+        {
+            return View("../Uslovi/Uslovi");
+        }
+        public IActionResult PocetnaOnClick()
+        {
+            return View("../Pocetna/Pocetna");
+        }
     }
 }
