@@ -16,10 +16,10 @@
     <Content Remove="Views\Pocetna\Pocetna.cshtml" />
     <Content Remove="Views\Uslovi\Pocetna.cshtml" />
     <Content Remove="Views\Registracija\Pocetna.cshtml" />
-    <Content Remove="Views\Pretraga\Pocetna.cshtml" />
     <Content Remove="Views\Pretraga\Pretraga.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Views\Pretraga\Pretraga.cshtml" />
     <None Include="wwwroot\slike\pocetnaSlika.jpg" />
     <None Include="wwwroot\slike\slikaKontakt.png" />
     <None Include="Views\Pocetna\Pocetna.cshtml" />
@@ -30,7 +30,6 @@
     <Folder Include="Views\Pocetna\" />
     <Folder Include="Views\Uslovi\" />
     <Folder Include="Views\Prijava\" />
-    <Folder Include="Views\Pretraga\" />
     <Folder Include="Views\Vozila\" />
     <Folder Include="Views\Rezervacija\" />
   </ItemGroup>

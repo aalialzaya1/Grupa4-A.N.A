@@ -1,12 +1,109 @@
 ﻿@{
     ViewData["Title"] = "Rezervacija";
 }
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="js/zaPocetnu.js"></script>
+    <title></title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
 
-    <h2>OVO CE BITI STRANA ZA REZERVACIJU</h2>
+    <div class="main">
 
-    <img src="~/images/pocetnaSlika.jpg" alt="Visual Studio" class="img-responsive" />
 
-</body>
+
+        <!-- Sing in  Form -->
+        <section class="sign-in">
+            <div class="container">
+                <div class="signin-content">
+                    <div class="signin-image">
+                        <figure><img src="slike/car2.png" alt="sing up image"></figure>
+                    </div>
+
+                    <div class="signin-form">
+                        <h2 class="form-title">Rezervacija</h2>
+
+                        <div class="form-group">
+                            <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                            <input type="text" name="your_name" id="your_name" placeholder="Lokacija preuzimanja" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                            <input type="text" name="your_name" id="your_name" placeholder="Lokacija vraćanja" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                            <input type="text" name="your_name" id="your_name" placeholder="Datum od" />
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                            <input type="text" name="your_name" id="your_name" placeholder="Datum do" />
+                        </div>
+
+                        <p>Način plaćanja</p>
+                        <div class="form-group">
+                            <input type="checkbox" name="remember-me" id="navigacija" class="agree-term" />
+                            <label for="navigacija" class="label-agree-term"><span><span></span></span>Sada</label>
+                            <div class="form-group">
+                                <label for="your_pass"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="password" name="your_pass" id="your_pass" placeholder="Broj katrice" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="your_pass"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="password" name="your_pass" id="your_pass" placeholder="Banka" />
+                            </div>
+
+
+                            <input type="checkbox" name="remember-me" id="priPreuzimanju" class="agree-term" />
+                            <label for="priPreuzimanju" class="label-agree-term"><span><span></span></span>Pri preuzimanju</label>
+
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                            <input type="text" name="your_name" id="your_name" placeholder="Ime i prezime" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                            <input type="text" name="your_name" id="your_name" placeholder="Datum rođenja" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                            <input type="text" name="your_name" id="your_name" placeholder="Broj telefona" />
+                        </div>
+
+
+                        <div class="form-group form-button">
+                            <input type="submit" name="signin" id="signin" class="form-submit" value="Rezerviši" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>
