@@ -9,5 +9,10 @@ namespace RentACar.Controllers
         {
             return View();
         }
+
+        public IActionResult RezervisiOnClick()
+        {
+            return View("../Pocetna/Pocetna");
+        }
     }
 }

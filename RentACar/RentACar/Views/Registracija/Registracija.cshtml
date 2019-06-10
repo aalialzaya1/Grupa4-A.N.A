@@ -50,7 +50,7 @@
                                 <input type="password" name="re_pass" id="re_pass" placeholder="Potvrda šifre" />
                             </div>
                             <div class="form-group form-button">
-                                <input type="submit" name="signup" id="signup" class="form-submit" value="Registriraj se" />
+                                @Html.ActionLink("Registriraj se", "RegistracijaOnClick", "Registracija", null, new { type = "submit", name = "signup", id = "signup", @class="form-submit"})
                             </div>
                         </form>
                     </div>

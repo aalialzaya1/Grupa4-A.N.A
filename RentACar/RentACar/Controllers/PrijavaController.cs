@@ -13,5 +13,10 @@ namespace RentACar.Controllers
         {
             return View("../Registracija/Registracija");
         }
+
+        public IActionResult PrijavaOnClick()
+        {
+            return View("../Pocetna/Pocetna");
+        }
     }
 }

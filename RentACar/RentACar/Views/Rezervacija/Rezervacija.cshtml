@@ -27,7 +27,7 @@
             <div class="container">
                 <div class="signin-content">
                     <div class="signin-image">
-                        <figure><img src="slike/car2.png" alt="sing up image"></figure>
+                        <figure><img src="../slike/car2.png" alt="sing up image"></figure>
                     </div>
 
                     <div class="signin-form">
@@ -92,7 +92,7 @@
 
 
                         <div class="form-group form-button">
-                            <input type="submit" name="signin" id="signin" class="form-submit" value="Rezerviši" />
+                            @Html.ActionLink("Rezerviši", "RezervisiOnClick", "Rezervacija", null, new { type = "submit", name = "signin", id = "signin", @class="form-submit"})
                         </div>
 
                     </div>

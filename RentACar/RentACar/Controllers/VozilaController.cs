@@ -29,5 +29,9 @@ namespace RentACar.Controllers
         {
             return View("../Pocetna/Pocetna");
         }
+        public IActionResult RezervisiOnClick()
+        {
+            return View("../Rezervacija/Rezervacija");
+        }
     }
 }

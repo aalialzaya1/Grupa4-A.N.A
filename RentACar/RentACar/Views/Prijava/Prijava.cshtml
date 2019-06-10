@@ -42,7 +42,7 @@
                                 <input type="password" name="your_pass" id="your_pass" placeholder="Šifra" />
                             </div>
                             <div class="form-group form-button">
-                                <input type="submit" name="signin" id="signin" class="form-submit" value="Prijava" />
+                                @Html.ActionLink("Prijava", "PrijavaOnClick", "Prijava", null, new { type = "submit", name = "signin", id = "signin", @class="form-submit"})
                             </div>
                         </form>
                     </div>

@@ -9,5 +9,10 @@ namespace RentACar.Controllers
         {
             return View();
         }
+
+        public IActionResult PretragaOnClick()
+        {
+            return View("../Vozila/Vozila");
+        }
     }
 }

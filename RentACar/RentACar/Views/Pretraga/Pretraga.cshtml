@@ -92,7 +92,7 @@
 
 
                             <div class="form-group form-button">
-                                <input type="submit" name="signin" id="signin" class="form-submit" value="Pretraga" />
+                                @Html.ActionLink("Pretraga", "PretragaOnClick", "Pretraga", null, new { type = "submit", name = "signin", id = "signin", @class="form-submit" })
                             </div>
                         </form>
                     </div>
