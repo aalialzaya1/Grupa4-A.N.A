@@ -25,7 +25,7 @@ namespace RentACar.Controllers
         }
         public IActionResult KontakOnClick()
         {
-            return View("../Kontak/Kontak");
+            return View("../Kontakt/Kontakt");
         }
         public IActionResult UsloviOnClick()
         {

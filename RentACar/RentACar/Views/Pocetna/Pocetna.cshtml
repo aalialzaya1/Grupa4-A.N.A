@@ -10,8 +10,8 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-    <link href="css/default.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/css/default.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/css/fonts.css" rel="stylesheet" type="text/css" media="all" />
     <script type="text/javascript" src="js/zaPocetnu.js"></script>
     <!--[if IE 6]>
     <link href="default_ie6.css" rel="stylesheet" type="text/css" />
@@ -39,10 +39,10 @@
             <div id="menu" class="container">
                 <ul>
                     <li class="current_page_item"><a href="pocetna.html" accesskey="1" title="">POČETNA</a></li>
-                    <li><a accesskey="2">@Html.ActionLink("Vozila", "VozilaOnClick", "Vozila", null, new { })</a></li>
-                    <li><a accesskey="3">@Html.ActionLink("Pretraga", "PretragaOnClick", "Pretraga", null, new { })</a></li>
-                    <li><a accesskey="4">@Html.ActionLink("Uslovi", "UsloviOnClick", "Kontakt", null, new { })</a></li>
-                    <li><a accesskey="5">@Html.ActionLink("Kontak", "KontakOnClick", "Kontakt", null, new { })</a></li>
+                    <li><a accesskey="2">@Html.ActionLink("Vozila", "VozilaOnClick", "Pocetna", null, new { })</a></li> 
+                    <li><a accesskey="3">@Html.ActionLink("Pretraga", "PretragaOnClick", "Pocetna", null, new { })</a></li> 
+                    <li><a accesskey="4">@Html.ActionLink("Uslovi", "UsloviOnClick", "Pocetna", null, new { })</a></li> 
+                    <li><a accesskey="5">@Html.ActionLink("Kontakt", "KontakOnClick", "Pocetna", null, new { })</a></li>
                 </ul>
             </div>
         </div>
@@ -62,7 +62,7 @@
                         DO: <input id="boxDo" type="text" style="width: 156px" />
                     </form>
                 </div>
-                <a accesskey="2">@Html.ActionLink("Traži", "VozilaOnClick", "Vozila", null, new { class="buttonx" style="width: 100px; height: 24px;"})</a>
+                <a accesskey="2">@Html.ActionLink("Potvrdi", "VozilaOnClick", "Pocetna", null, new { @class="button", style="width: 100px; height: 24px;"} )</a>
                 &nbsp;
             </ul>
         </div>
