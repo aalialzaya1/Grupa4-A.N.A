@@ -1,0 +1,87 @@
+﻿@{
+    ViewData["Title"] = "Kontakt";
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : LadyTulip
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20131127
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+    <link href="~/css/default2.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="js/zaPocetnu.js"></script>
+    <!--[if IE 6]>
+    <link href="default_ie6.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <style type="text/css">
+        .auto-style2 {
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header-wrapper">
+            <div id="header" class="container">
+                <div id="social" style="left: 2px; top: 6em; width: 170px; height: 15px; right: 1038px;">
+                    <ul class="contact">
+
+                        <li><img src="../slike/BiH.png" width="20" height="15" alt="" /><span></span></li>
+                        <li><img src="../slike/eng.png" width="20" height="15" alt="" /><span></span></li>
+                        <li><div class="vl"></div></li>
+                        @Html.ActionLink("Odjava", "PrijavaOnClick", "Kontakt", null, new { @class = "button", style = "width: 45px; height: 15px;", type = "button" })
+                    </ul></div>
+            </div>
+            <div id="menu" class="container">
+                <ul>
+                    <li><a accesskey="1">@Html.ActionLink("Pocetna", "PocetnaOnClick", "Kontakt", null, new { })</a></li>
+
+                    <li><a accesskey="2">@Html.ActionLink("Vozila", "Vozila", "Kontakt", null, new { })</a></li>
+
+                    <li><a accesskey="3">@Html.ActionLink("Pretraga", "PretragaOnClick", "Kontakt", null, new { })</a></li>
+
+                    <li><a accesskey="4">@Html.ActionLink("Uslovi", "UsloviOnClick", "Kontakt", null, new { })</a></li>
+
+                    <li><a accesskey="5">@Html.ActionLink("Kontakt", "KontakOnClick", "Kontakt", null, new { })</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="welcome-wrapper">
+            <ul id="auto-style1">
+                <div id="adresa1">
+                    <address class="auto-style2">
+                        Zmaja od Bosne bb<br />
+                        71000 Sarajevo, Bosna i Hercegoviva<br />
+                        <strong>Email:</strong> <a href="mailto:rent.a.car.ba@gmail.com">rent.a.car.ba@gmail.com</a> <br />
+                        <strong>Kontakt telefon: </strong> +387 33 123 456 <br />
+                        <strong>Kontakt mobilni: </strong> +387 61 111 222 <br />
+                        <strong>Fax: </strong> +387 33 555 666 <br />
+                    </address>
+                </div>
+                <div id="slika">
+                    <img src="../slike/car.png" width="282" height="150" />
+                </div>
+
+            </ul>
+        </div>
+    </div>
+    <div id="footer">
+        <p>&nbsp;</p>
+    </div>
+
+</body>
+</html>

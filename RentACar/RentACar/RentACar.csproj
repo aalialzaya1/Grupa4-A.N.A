@@ -34,6 +34,9 @@
     <Folder Include="Views\Rezervacija\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Update="Views\KontaktPrijavljen\KontaktPrijavljen.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
     <Content Update="Views\Registracija\Registracija.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
