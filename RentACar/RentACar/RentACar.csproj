@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <Content Remove="Views\Home\Pocetna.cshtml" />
+    <Content Remove="Views\PocetnaPrijavljen\PocetnaPrijavljen.cshtml" />
     <Content Remove="wwwroot\slike\pocetnaSlika.jpg" />
     <Content Remove="wwwroot\slike\slikaKontakt.png" />
     <Content Remove="Views\Pocetna\Pocetna.cshtml" />
@@ -19,6 +20,7 @@
     <Content Remove="Views\Pretraga\Pretraga.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Views\PocetnaPrijavljen\PocetnaPrijavljen.cshtml" />
     <None Include="Views\Pretraga\Pretraga.cshtml" />
     <None Include="wwwroot\slike\pocetnaSlika.jpg" />
     <None Include="wwwroot\slike\slikaKontakt.png" />
@@ -38,6 +40,12 @@
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
     <Content Update="Views\Registracija\Registracija.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\UsloviPrijavljen\UsloviPrijavljen.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\VozilaPrijavljen\VozilaPrijavljen.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
   </ItemGroup>

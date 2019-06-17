@@ -1,0 +1,131 @@
+﻿@{
+    ViewData["Title"] = "Uslovi";
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : LadyTulip
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20131127
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+    <link href="~/css/default.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="js/zaPocetnu.js"></script>
+    <!--[if IE 6]>
+    <link href="default_ie6.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <style type="text/css">
+        .auto-style2 {
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header-wrapper">
+            <div id="header" class="container">
+                <div id="social" style="left: 2px; top: 6em; width: 170px; height: 15px; right: 1038px;">
+                    <ul class="contact">
+
+                        <li><img src="../slike/BiH.png" width="20" height="15" alt="" /><span></span></li>
+                        <li><img src="../slike/eng.png" width="20" height="15" alt="" /><span></span></li>
+                        <li><div class="vl"></div></li>
+                        @Html.ActionLink("Prijava", "PrijavaOnClick", "Uslovi", null, new { @class = "button", style = "width: 45px; height: 15px;", type = "button" })
+                    </ul>
+                </div>
+            </div>
+            <div id="menu" class="container">
+                <ul>
+                    <li><a accesskey="1">@Html.ActionLink("Pocetna", "PocetnaOnClick", "Uslovi", null, new { })</a></li>
+
+                    <li><a accesskey="2">@Html.ActionLink("Vozila", "VozilaOnClick", "Uslovi", null, new { })</a></li>
+
+                    <li><a accesskey="3">@Html.ActionLink("Pretraga", "PretragaOnClick", "Uslovi", null, new { })</a></li>
+
+                    <li><a accesskey="4">@Html.ActionLink("Uslovi", "Uslovi", "Uslovi", null, new { })</a></li>
+
+                    <li><a accesskey="5">@Html.ActionLink("Kontakt", "KontakOnClick", "Uslovi", null, new { })</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="welcome-wrapper">
+            <ul id="auto-style1">
+                <div id="uslovi">
+                    <h2>USLOVI:</h2>
+                    <h3>Osiguranje</h3>
+
+                    <p>
+                        Osiguranje prema trećim licima: ograničeno pokriće jednako minimalnom zakonskom nivou je uključeno u cijenu.
+                        Kasko osiguranje: pokriva štete na vozilu uključujući otuđenje vozila u skladu sa uslovima osiguranja (obavezan policijski izvještaj nezgode, ključevi i saobraćajna u slučaju otuđenja se moraju vratiti agenciji itd.).
+                    </p>
+
+                    <h3>Prekoračenje dužine najma</h3>
+                    <p>
+                        Sat zakašnjenja pri povratu vozila je dozvoljeno nakon čega će se naplatiti dodatni dan rente.
+                    </p>
+
+                    <h3>Minimalna starost korisnika</h3>
+                    <p>
+                        21 godina.
+                    </p>
+
+                    <h3>Vozačka dozvola</h3>
+                    <p>
+                        Vozač mora pokazati važeću dozvolu izdatu prije najmanje dvije godine.
+                    </p>
+
+                    <h3>Produžetak najma</h3>
+                    <p>
+                        Na upit, zavisi od dostupnosti vozila.
+                    </p>
+
+                    <h3>Dostava i preuzimanje vozila</h3>
+                    <p>
+                        Na upit.
+                    </p>
+
+                    <h3>Plaćanje</h3>
+                    <p>
+                        Procjenjeni troškovi najma se plaćaju unaprijed prije preuzimanja vozila.
+                    </p>
+
+
+
+                    <h3>Garancija rezervacije</h3>
+
+                    <p>
+                        Rezervacije se primaju i mogu biti garantovane samo po kategoriji vozila.
+
+                        Model vozila je predmet dostupnosti i ne može biti garantovan pri bukiranju rezervacije.
+                    </p>
+
+                    <h3>Naćin plaćanja</h3>
+
+                    <p>Kreditna kartica ili prilikom vraćanja ključeva</p>
+                    <p></p>
+
+                </div>
+
+            </ul>
+        </div>
+    </div>
+    <div id="footer">
+        <p>&nbsp;</p>
+    </div>
+
+</body>
+</html>
+
