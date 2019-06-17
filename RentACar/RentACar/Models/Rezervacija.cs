@@ -18,6 +18,9 @@ namespace RentACar.Models
         private Grad gradVracanja;
         private DateTime datumPreuzimanja;
         private DateTime datumVracanja;
+        private int vId;
+        private int oId;
+        private int gId;
 
         public int Id { get => id; set => id = value; }
         public int BrojDana { get => brojDana; set => brojDana = value; }

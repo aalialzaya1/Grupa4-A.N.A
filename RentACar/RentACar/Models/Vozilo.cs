@@ -14,6 +14,7 @@ namespace RentACar.Models
             POLUAUTOMATIK 
         }
 
+        private int voziloId;
         private String naziv;
         private String marka;
         private int brojVrata;
@@ -23,6 +24,7 @@ namespace RentACar.Models
         private int fotografija;
         private double osnovnaCijena;
         private Transmisija transmisija;
+        private String tip;
 
         public Vozilo()
         {

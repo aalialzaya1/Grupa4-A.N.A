@@ -8,6 +8,7 @@ namespace RentACar.Models
         private int sifraRacuna;
         private double iznos;
         private Rezervacija rezervacija;
+        private int idOsobe;
 
         public Racun()
         {
