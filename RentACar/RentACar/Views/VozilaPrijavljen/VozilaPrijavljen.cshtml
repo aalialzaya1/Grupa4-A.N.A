@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Vozila";
+    ViewData["Title"] = "VozilaPrijavljen";
 }
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -43,21 +43,21 @@ Released   : 20131127
                         <li><img src="../slike/BiH.png" width="20" height="15" alt="" /><span></span></li>
                         <li><img src="../slike/eng.png" width="20" height="15" alt="" /><span></span></li>
                         <li><div class="vl"></div></li>
-                        @Html.ActionLink("Prijava", "PrijavaOnClick", "Vozila", null, new { @class = "button", style = "width: 45px; height: 15px;", type = "button" })
+                        @Html.ActionLink("Odjava", "OdjavaOnClick", "VozilaPrijavljen", null, new { @class = "button", style = "width: 45px; height: 15px;", type = "button" })
                     </ul>
                 </div>
             </div>
             <div id="menu" class="container">
                 <ul>
-                    <li><a accesskey="1">@Html.ActionLink("Pocetna", "PocetnaOnClick", "Vozila", null, new { })</a></li>
+                    <li><a accesskey="1">@Html.ActionLink("Pocetna", "PocetnaOnClick", "VozilaPrijavljen", null, new { })</a></li>
 
-                    <li><a accesskey="2">@Html.ActionLink("Vozila", "Vozila", "Vozila", null, new { })</a></li>
+                    <li><a accesskey="2">@Html.ActionLink("Vozila", "Vozila", "VozilaPrijavljen", null, new { })</a></li>
 
-                    <li><a accesskey="3">@Html.ActionLink("Pretraga", "PretragaOnClick", "Vozila", null, new { })</a></li>
+                    <li><a accesskey="3">@Html.ActionLink("Pretraga", "PretragaOnClick", "VozilaPrijavljen", null, new { })</a></li>
 
-                    <li><a accesskey="4">@Html.ActionLink("Uslovi", "UsloviOnClick", "Vozila", null, new { })</a></li>
+                    <li><a accesskey="4">@Html.ActionLink("Uslovi", "UsloviOnClick", "VozilaPrijavljen", null, new { })</a></li>
 
-                    <li><a accesskey="5">@Html.ActionLink("Kontakt", "KontakOnClick", "Vozila", null, new { })</a></li>
+                    <li><a accesskey="5">@Html.ActionLink("Kontakt", "KontakOnClick", "VozilaPrijavljen", null, new { })</a></li>
                 </ul>
             </div>
         </div>

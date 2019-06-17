@@ -16,7 +16,7 @@ namespace RentACar.Controllers
 
         public IActionResult PrijavaOnClick()
         {
-            return View("../Pocetna/Pocetna");
+            return View("../PocetnaPrijavljen/PocetnaPrijavljen");
         }
     }
 }
