@@ -11,7 +11,7 @@ namespace RentACar.Controllers
         }
         public IActionResult OdjavaOnClick()
         {
-            return View("../Prijava/Prijava");
+            return View("../Vozila/Vozila");
         }
         public IActionResult PretragaOnClick()
         {

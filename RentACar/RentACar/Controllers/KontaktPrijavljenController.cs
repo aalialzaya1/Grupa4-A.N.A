@@ -16,7 +16,7 @@ namespace RentACar.Controllers
         }
         public IActionResult OdjavaOnClick()
         {
-            return View("../Pocetna/Pocetna");
+            return View("../Kontakt/Kontakt");
         }
 
         public IActionResult VozilaOnClick()
@@ -36,5 +36,6 @@ namespace RentACar.Controllers
         {
             return View("../PocetnaPrijavljen/PocetnaPrijavljen");
         }
+
     }
 }

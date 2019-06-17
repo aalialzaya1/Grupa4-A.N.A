@@ -31,5 +31,9 @@ namespace RentACar.Controllers
         {
             return View("../PocetnaPrijavljen/PocetnaPrijavljen");
         }
+        public IActionResult OdjavaOnClick()
+        {
+            return View("../Uslovi/Uslovi");
+        }
     }
 }
