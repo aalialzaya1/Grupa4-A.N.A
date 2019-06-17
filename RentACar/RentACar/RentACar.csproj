@@ -18,6 +18,8 @@
     <Content Remove="Views\Uslovi\Pocetna.cshtml" />
     <Content Remove="Views\Registracija\Pocetna.cshtml" />
     <Content Remove="Views\Pretraga\Pretraga.cshtml" />
+    <Content Remove="Views\PretragaPrijavljen\Pretraga.cshtml" />
+    <Content Remove="Views\PretragaPrijavljen\PretragaPrijavljen.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Views\PocetnaPrijavljen\PocetnaPrijavljen.cshtml" />
@@ -34,6 +36,7 @@
     <Folder Include="Views\Prijava\" />
     <Folder Include="Views\Vozila\" />
     <Folder Include="Views\Rezervacija\" />
+    <Folder Include="Views\PretragaPrijavljen\" />
   </ItemGroup>
   <ItemGroup>
     <Content Update="Views\KontaktPrijavljen\KontaktPrijavljen.cshtml">

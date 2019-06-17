@@ -15,7 +15,7 @@ namespace RentACar.Controllers
         }
         public IActionResult PretragaOnClick()
         {
-            return View("../Pretraga/Pretraga");
+            return View("../PretragaPrijavljen/PretragaPrijavljen");
         }
         public IActionResult KontakOnClick()
         {

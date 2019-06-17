@@ -12,8 +12,6 @@ namespace RentACar.Controllers
     {
         public IActionResult KontaktPrijavljen()
         {
-            ViewData["Message"] = "Informacije: ";
-
             return View();
         }
         public IActionResult OdjavaOnClick()
@@ -28,7 +26,7 @@ namespace RentACar.Controllers
 
         public IActionResult PretragaOnClick()
         {
-            return View("../Pretraga/Pretraga");
+            return View("../PretragaPrijavljen/PretragaPrijavljen");
         }
         public IActionResult UsloviOnClick()
         {
