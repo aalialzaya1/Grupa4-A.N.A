@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using Microsoft.EntityFrameworkCore;
 
 namespace RentACar.Models
@@ -13,11 +15,11 @@ namespace RentACar.Models
 
         public DatabaseContext(DbContextOptions<DatabaseContext> options) : base(options) => instance = this;
 
-        public DbSet<Vozilo> Vozilo { get; set; }
-        public DbSet<Osoba> Osoba { get; set; }
-        public DbSet<Grad> Grad { get; set; }
-        public DbSet<Racun> Racun { get; set; }
-        public DbSet<Rezervacija> Rezervacija { get; set; }
+        public DbSet<Vozilo> Vozila { get; set; }
+        public DbSet<Osoba> Osobe { get; set; }
+        public DbSet<Grad> Gradovi { get; set; }
+        public DbSet<Racun> Racuni{ get; set; }
+        public DbSet<Rezervacija> Rezervacije { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -30,23 +32,24 @@ namespace RentACar.Models
         }
         public Vozilo dajVozilo(int vId)
         {
-            return Vozilo.Find(vId);
+            return Vozila.Find(vId);
         }
         public Osoba dajOsobu(int oId)
         {
-            return Osoba.Find(oId);
+            return Osobe.Find(oId);
         }
         public Racun dajRacun(int rId)
         {
-            return Racun.Find(rId);
+            return Racuni.Find(rId);
         }
         public Rezervacija dajRezervaciju(int rId)
         {
-            return Rezervacija.Find(rId);
+            return Rezervacije.Find(rId);
         }
         public Grad dajGrad(int gId)
         {
-            return Grad.Find(gId);
+            return Gradovi.Find(gId);
         }
+        public List<Vozilo> PretragaPoMarki(String marka)         {             List<Vozilo> vozila = Vozila.Where((Vozilo vozilo) => vozilo.Marka.Equals(marka)).ToList();             return vozila;         }         public List<Vozilo> PretragaPoBrojuSjedista(String brSjedista)         {             List<Vozilo> vozila = Vozila.Where((Vozilo vozilo) => vozilo.BrojSjedista.Equals(brSjedista)).ToList();             return vozila;         }         public List<Vozilo> PretregaPoDatumu()         {             List<Vozilo> vozila = Vozila.Where((Vozilo vozilo) => vozilo.Dostupnost.Equals(1)).ToList();             return vozila;         }
     }
 }

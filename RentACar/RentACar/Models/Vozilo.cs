@@ -51,6 +51,12 @@ namespace RentACar.Models
         public int BrojVrata { get => brojVrata; set => brojVrata = value; }
         public int BrojSjedista { get => brojSjedista; set => brojSjedista = value; }
         public VrstaGoriva VrstaGoriva1 { get => vrstaGoriva; set => vrstaGoriva = value; }
+
+        internal static object Where(Func<Vozilo, bool> p)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool Dostupnost { get => dostupnost; set => dostupnost = value; }
         public int Fotografija { get => fotografija; set => fotografija = value; }
         public double OsnovnaCijena { get => osnovnaCijena; set => osnovnaCijena = value; }

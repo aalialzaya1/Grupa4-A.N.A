@@ -37,7 +37,6 @@
     <Folder Include="Views\Vozila\" />
     <Folder Include="Views\Rezervacija\" />
     <Folder Include="Views\PretragaPrijavljen\" />
-    <Folder Include="Database\" />
   </ItemGroup>
   <ItemGroup>
     <Content Update="Views\KontaktPrijavljen\KontaktPrijavljen.cshtml">
