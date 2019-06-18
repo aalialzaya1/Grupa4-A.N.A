@@ -26,7 +26,27 @@ namespace RentACar.Models
             modelBuilder.Entity<Grad>().ToTable("Grad");
             modelBuilder.Entity<Racun>().ToTable("Racun");
             modelBuilder.Entity<Rezervacija>().ToTable("Rezervacija");
-      
+     
+        }
+        public Vozilo dajVozilo(int vId)
+        {
+            return Vozilo.Find(vId);
+        }
+        public Osoba dajOsobu(int oId)
+        {
+            return Osoba.Find(oId);
+        }
+        public Racun dajRacun(int rId)
+        {
+            return Racun.Find(rId);
+        }
+        public Rezervacija dajRezervaciju(int rId)
+        {
+            return Rezervacija.Find(rId);
+        }
+        public Grad dajGrad(int gId)
+        {
+            return Grad.Find(gId);
         }
     }
 }
