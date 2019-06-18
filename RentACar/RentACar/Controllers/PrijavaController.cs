@@ -18,5 +18,14 @@ namespace RentACar.Controllers
         {
             return View("../PocetnaPrijavljen/PocetnaPrijavljen");
         }
+        [HttpPost]
+        public IActionResult Validacija(string email, string sifra)
+        {
+            if (email != null && sifra != null)
+            {
+                return View("../PocetnaPrijavljen/PocetnaPrijavljen");
+            }
+            return View("../Prijava/Prijava");
+        }
     }
 }
