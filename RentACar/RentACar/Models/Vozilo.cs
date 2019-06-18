@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace RentACar.Models
 {
     public class Vozilo
@@ -14,7 +16,8 @@ namespace RentACar.Models
             POLUAUTOMATIK 
         }
 
-        private int voziloId;
+        [Key]
+        public int id { get; set; }
         private String naziv;
         private String marka;
         private int brojVrata;
@@ -42,7 +45,7 @@ namespace RentACar.Models
             this.osnovnaCijena = osnovnaCijena;
             this.transmisija = transmisija;
         }
-
+        
         public string Naziv { get => naziv; set => naziv = value; }
         public string Marka { get => marka; set => marka = value; }
         public int BrojVrata { get => brojVrata; set => brojVrata = value; }

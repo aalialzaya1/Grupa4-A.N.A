@@ -5,18 +5,18 @@ namespace RentACar.Models
 {
     public class Klijent : Osoba, IKlijentObserver, IRezervisi
     {
-        private List<int> racuniUBanci = new List<int>();
+        //private List<int> racuniUBanci = new List<int>();
 
-        public List<int> RacuniUBanci { get => racuniUBanci; set => racuniUBanci = value; }
+        //public List<int> RacuniUBanci { get => racuniUBanci; set => racuniUBanci = value; }
 
         public Klijent()
         {
         }
 
-        public Klijent(List<int> racuniUBanci)
+        /*public Klijent(List<int> racuniUBanci)
         {
             this.RacuniUBanci = racuniUBanci;
-        }
+        }*/
 
         public void azuriraj(int stanje)
         {
