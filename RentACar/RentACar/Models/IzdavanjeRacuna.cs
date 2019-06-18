@@ -7,6 +7,9 @@ namespace RentACar.Models
         {
         }
 
+
+
+
         public void izdaj(Racun racun)
         {
             throw new NotImplementedException();
