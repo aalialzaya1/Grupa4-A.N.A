@@ -23,36 +23,39 @@
                 <div class="signup-content">
                     <div class="signup-form">
                         <h2 class="form-title">Registracija</h2>
-                        <form method="POST" class="register-form" id="register-form">
-                            <div class="form-group">
-                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" name="name" id="name" placeholder="Ime" />
-                            </div>
-                            <div class="form-group">
-                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" name="name" id="name" placeholder="Prezime" />
-                            </div>
-                            <div class="form-group">
-                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" name="name" id="name" placeholder="Datum rođenja" />
-                            </div>
+                        @using (Html.BeginForm("Validacija", "Registracija"))
+                        {
+                            <form method="POST" class="register-form" id="register-form">
+                                <div class="form-group">
+                                    <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                    <input type="text" name="ime" id="name" placeholder="Ime" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                    <input type="text" name="prezime" id="name" placeholder="Prezime" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                    <input type="text" name="datumRodjenja" id="name" placeholder="Datum rođenja" />
+                                </div>
 
-                            <div class="form-group">
-                                <label for="email"><i class="zmdi zmdi-email"></i></label>
-                                <input type="email" name="email" id="email" placeholder="Email" />
-                            </div>
-                            <div class="form-group">
-                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
-                                <input type="password" name="pass" id="pass" placeholder="Šifra" />
-                            </div>
-                            <div class="form-group">
-                                <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
-                                <input type="password" name="re_pass" id="re_pass" placeholder="Potvrda šifre" />
-                            </div>
-                            <div class="form-group form-button">
-                                @Html.ActionLink("Registriraj se", "RegistracijaOnClick", "Registracija", null, new { type = "submit", name = "signup", id = "signup", @class="form-submit"})
-                            </div>
-                        </form>
+                                <div class="form-group">
+                                    <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                    <input type="email" name="email" id="email" placeholder="Email" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                    <input type="password" name="sifra" id="pass" placeholder="Šifra" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+                                    <input type="password" name="potvrdaSifre" id="re_pass" placeholder="Potvrda šifre" />
+                                </div>
+                                <div class="form-group form-button">
+                                    <button type="submit" name="signup" id="signup" class="form-submit">Registriraj se</button>
+                                </div>
+                            </form>
+                        }
                     </div>
                     <div class="signup-image">
                         <figure><img src="../slike/car.png" alt="sing up image"></figure>
