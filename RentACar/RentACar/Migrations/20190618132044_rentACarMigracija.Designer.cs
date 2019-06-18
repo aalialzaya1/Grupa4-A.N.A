@@ -10,7 +10,7 @@ using RentACar.Models;
 namespace RentACar.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20190618130624_rentACarMigracija")]
+    [Migration("20190618132044_rentACarMigracija")]
     partial class rentACarMigracija
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
