@@ -47,6 +47,7 @@
     <Folder Include="Views\NotifikacijaRezervacije\" />
     <Folder Include="Views\NotifikacijaRezervacije2\" />
     <Folder Include="Views\NotifikacijaUspjesnoRezervisano\" />
+    <Folder Include="Views\NotifikacijaVecSteUBazi\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="wwwroot\slike\slikaZaAlertRezervacije.png" />

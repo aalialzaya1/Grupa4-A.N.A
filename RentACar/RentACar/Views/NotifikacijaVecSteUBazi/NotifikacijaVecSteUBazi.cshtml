@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "NotifikacijaVecSteUBazi";
+}
+
+
+<div class="popup">
+    <link href="~/css/zaNotifikacijuRegistracije.css" rel="stylesheet" type="text/css" media="all" />
+    <a href="#" class="close">
+
+    </a>
+    <h1>GREŠKA!</h1>
+    <p>Već postoji račun sa ovim emailom</p>
+    <div class="bottom-popup">
+        @Html.ActionLink("Nazad", "NazadOnClick", "NotifikacijaVecSteUBazi", null, new { @class = "nazad" })
+    </div>
+</div>
+
+

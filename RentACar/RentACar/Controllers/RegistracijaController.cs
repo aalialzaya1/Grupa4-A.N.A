@@ -31,7 +31,7 @@ namespace RentACar.Controllers
             {
                 var trenutnaOsoba = db.Osobe.Where((Osoba osoba) => osoba.Email.Equals(email));
                 if (trenutnaOsoba.Count() != 0) {
-                    return View("../NotifikacijaRegistracije/NotifikacijaRegistracije");
+                    return View("../NotifikacijaVecSteUBazi/NotifikacijaVecSteUBazi");
                 }
                 else
                 {
