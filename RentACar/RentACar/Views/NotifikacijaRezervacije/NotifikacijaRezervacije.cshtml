@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "NotifikacijaRezervacije";
+}
+
+
+<div class="popup">
+    <link href="~/css/zaNotifikacijuRezervacije.css" rel="stylesheet" type="text/css" media="all" />
+    <a href="#" class="close">
+
+    </a>
+    <h1>UPOZORENJE!</h1>
+    <p>Molim Vas prvo se prijavite sa Vašim računom</p>
+    <div class="bottom-popup">
+        @Html.ActionLink("Prijavi me", "NazadOnClick", "NotifikacijaRezervacije", null, new { @class="nazad" })
+    </div>
+</div>
+
+

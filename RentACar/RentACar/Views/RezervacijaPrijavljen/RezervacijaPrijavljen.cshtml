@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Rezervacija";
+    ViewData["Title"] = "RezervacijaPrijavljen";
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -21,9 +21,7 @@
     <div class="main">
 
 
-
-        @using (Html.BeginForm("Validacija", "Rezervacija"))
-        {
+        @using (Html.BeginForm("Validacija", "RezervacijaPrijavljen")){
         <!-- Sing in  Form -->
         <section class="sign-in">
             <div class="container">
@@ -94,15 +92,13 @@
 
 
                         <div class="form-group form-button">
-                            <button type = "submit" name = "signin" id = "signin" class = "form-submit" > Rezerviši</button>
+                            <button type="submit" name="signin" id="signin" class="form-submit"> Rezerviši</button>                        
                         </div>
-
                     </div>
                 </div>
             </div>
         </section>
         }
-
     </div>
 
     <!-- JS -->

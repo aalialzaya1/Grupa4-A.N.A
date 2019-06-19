@@ -31,7 +31,7 @@ namespace RentACar.Controllers
         }
         public IActionResult RezervisiOnClick()
         {
-            return View("../Rezervacija/Rezervacija");
+            return View("../RezervacijaPrijavljen/RezervacijaPrijavljen");
         }
     }
 }
