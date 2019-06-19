@@ -19,7 +19,7 @@ namespace RentACar.Controllers
         {
             if (lokacijaVracanja != null && lokacijaPreuzimanja != null && datumDO != null && datumOD != null && imeIPrezime != null && datumRodjenja != null && brojTelefona != null)
             {
-                return View("../PocetnaPrijavljen/PocetnaPrijavljen");//View uspjesnorezervisanautomobil
+                return View("../NotifikacijaUspjesnoRezervisano/NotifikacijaUspjesnoRezervisano");
             }
             else
             {

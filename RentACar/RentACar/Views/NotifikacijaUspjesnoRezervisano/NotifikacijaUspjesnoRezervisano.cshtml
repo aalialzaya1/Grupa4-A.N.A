@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "NotifikacijaUspjesnoRezervisano";
+}
+
+
+<div class="popup">
+    <link href="~/css/zaNotifikacijuUspjesnoRezervisano.css" rel="stylesheet" type="text/css" media="all" />
+    <a href="#" class="close">
+
+    </a>
+    <h1>ČESTITAMO!</h1>
+    <p>Uspjesno ste rezervisali vozilo</p>
+    <div class="bottom-popup">
+        @Html.ActionLink("Nazad", "NazadOnClick", "NotifikacijaUspjesnoRezervisano", null, new { @class = "nazad" })
+    </div>
+</div>
+
+
