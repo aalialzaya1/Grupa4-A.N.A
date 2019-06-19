@@ -5,15 +5,17 @@ namespace RentACar.Models
 {
     public class Vozilo
     {
-        public enum VrstaGoriva { 
-            BENZIN, 
-            DIZEL 
+        public enum VrstaGoriva
+        {
+            BENZIN,
+            DIZEL
         };
 
-        public enum Transmisija { 
-            AUTOMATIK, 
-            MANUAL, 
-            POLUAUTOMATIK 
+        public enum Transmisija
+        {
+            AUTOMATIK,
+            MANUAL,
+            POLUAUTOMATIK
         }
 
         [Key]
@@ -45,7 +47,7 @@ namespace RentACar.Models
             this.osnovnaCijena = osnovnaCijena;
             this.transmisija = transmisija;
         }
-        
+
         public string Naziv { get => naziv; set => naziv = value; }
         public string Marka { get => marka; set => marka = value; }
         public int BrojVrata { get => brojVrata; set => brojVrata = value; }
