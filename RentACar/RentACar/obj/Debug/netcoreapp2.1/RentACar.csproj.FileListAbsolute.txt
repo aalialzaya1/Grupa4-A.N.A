@@ -270,3 +270,4 @@ C:/Users/CpuInfotech/Desktop/New folder/Grupa4-A.N.A/RentACar/RentACar/obj/Debug
 /Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/NotifikacijaNemaEmaila/NotifikacijaNemaEmaila.g.cshtml.cs
 /Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/NotifikacijaPogresnaSifra/NotifikacijaPogresnaSifra.g.cshtml.cs
 /Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/NotifikacijaNeispravanGrad/NotifikacijaNeispravanGrad.g.cshtml.cs
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/NotifikacijaDodaj/NotifikacijaDodaj.g.cshtml.cs
