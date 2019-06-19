@@ -63,7 +63,7 @@ namespace RentACar
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=VozilaUposlenik}/{action=VozilaUposlenik}/{id?}");
+                    template: "{controller=Pocetna}/{action=Pocetna}/{id?}");
             });
         }
     }
