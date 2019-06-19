@@ -1,0 +1,132 @@
+﻿@{
+    ViewData["Title"] = "VozilaUposlenik";
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : LadyTulip
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20131127
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+    <link href="~/css/default.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="js/zaPocetnu.js"></script>
+    <!--[if IE 6]>
+    <link href="default_ie6.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <style type="text/css">
+        .auto-style2 {
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header-wrapper">
+            <div id="header" class="container">
+                <div id="social" style="left: 2px; top: 6em; width: 170px; height: 15px; right: 1038px;">
+                    <ul class="contact">
+
+                        <li><img src="../slike/BiH.png" width="20" height="15" alt="" /><span></span></li>
+                        <li><img src="../slike/eng.png" width="20" height="15" alt="" /><span></span></li>
+                        <li><div class="vl"></div></li>
+                        @Html.ActionLink("Odjava", "OdjavaOnClick", "VozilaUposlenik", null, new { @class = "button", style = "width: 45px; height: 15px;", type = "button" })
+                    </ul>
+                </div>
+            </div>
+            <div id="menu" class="container">
+                <ul>
+                    <li><a accesskey="1">@Html.ActionLink("Pocetna", "PocetnaOnClick", "VozilaUposlenik", null, new { })</a></li>
+
+                    <li><a accesskey="2">@Html.ActionLink("Vozila", "VozilaPrijavljen", "VozilaUposlenik", null, new { })</a></li>
+
+                    <li><a accesskey="3">@Html.ActionLink("Pretraga", "PretragaOnClick", "VozilaUposlenik", null, new { })</a></li>
+
+                    <li><a accesskey="4">@Html.ActionLink("Uslovi", "UsloviOnClick", "VozilaUposlenik", null, new { })</a></li>
+
+                    <li><a accesskey="5">@Html.ActionLink("Kontakt", "KontakOnClick", "VozilaUposlenik", null, new { })</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="welcome-wrapper">
+            <ul id="auto-style1">
+                
+                @Html.ActionLink("Dodaj vozilo", "DodajVoziloOnClick", "VozilaUposlenik", new { vozilo = "renault captur" }, new { @class = "button" })
+
+            </ul>
+        </div>
+        <div id="page" class="container">
+            <div class="column1">
+                <div class="title">
+                    <h2>renault captur</h2>
+                </div>
+                <img src="../slike/auto1.jpg" width="282" height="150" alt="" />
+                <p>Broj vrata: 5</p>
+                <p>Broj putnika: 5</p>
+                <p>Vrsta transmisije: Manual</p>
+                <p>Vrsta goriva: Dizel</p>
+                <p>Klima: DA</p>
+                <p>Navigacija: DA</p>
+                @Html.ActionLink("Rezerviši", "RezervisiOnClick", "VozilaUposlenik", new { vozilo = "renault captur" }, new { @class = "button" })
+            </div>
+            <div class="column2">
+                <div class="title">
+                    <h2>audi a3</h2>
+                </div>
+                <img src="../slike/auto2.jpg" width="282" height="150" alt="" />
+                <p>Broj vrata: 5</p>
+                <p>Broj putnika: 5</p>
+                <p>Vrsta transmisije: Manual</p>
+                <p>Vrsta goriva: Dizel</p>
+                <p>Klima: DA</p>
+                <p>Navigacija: DA</p>
+                @Html.ActionLink("Rezerviši", "RezervisiOnClick", "VozilaUposlenik", new { vozilo = "audi a3" }, new { @class = "button" })
+            </div>
+            <div class="column3">
+                <div class="title">
+                    <h2>bmw 3</h2>
+                </div>
+                <img src="../slike/auto3.jpg" width="282" height="150" alt="" />
+                <p>Broj vrata: 5</p>
+                <p>Broj putnika: 5</p>
+                <p>Vrsta transmisije: Manual</p>
+                <p>Vrsta goriva: Benzin</p>
+                <p>Klima: DA</p>
+                <p>Navigacija: DA</p>
+                @Html.ActionLink("Rezerviši", "RezervisiOnClick", "VozilaUposlenik", new { vozilo = "bmw 3" }, new { @class = "button" })
+            </div>
+            <div class="column4">
+                <div class="title">
+                    <h2>bugatti divo</h2>
+                </div>
+                <img src="../slike/auto4.jpg" width="282" height="150" alt="" />
+                <p>Broj vrata: 3</p>
+                <p>Broj putnika: 3</p>
+                <p>Vrsta transmisije: Automatik</p>
+                <p>Vrsta goriva: Dizel</p>
+                <p>Klima: DA</p>
+                <p>Navigacija: DA</p>
+                @Html.ActionLink("Rezerviši", "RezervisiOnClick", "VozilaUposlenik", new { vozilo = "bugatti divo" }, new { @class = "button" })
+            </div>
+        </div>
+
+    </div>
+    <div id="footer">
+        <p>&nbsp;</p>
+    </div>
+
+</body>
+</html>

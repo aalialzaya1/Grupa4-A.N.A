@@ -56,10 +56,16 @@
     <Content Update="Views\KontaktPrijavljen\KontaktPrijavljen.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
+    <Content Update="Views\dodajVozilo\dodajVozilo.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
     <Content Update="Views\Registracija\Registracija.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
     <Content Update="Views\UsloviPrijavljen\UsloviPrijavljen.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\VozilaUposlenik\VozilaUposlenik.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
     <Content Update="Views\VozilaPrijavljen\VozilaPrijavljen.cshtml">
