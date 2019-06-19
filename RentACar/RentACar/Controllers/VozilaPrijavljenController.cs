@@ -41,8 +41,8 @@ namespace RentACar.Controllers
                 var kliknutoVozilo = db.Vozila.Where((Vozilo v) => v.Naziv.Equals(vozilo));
                 if(kliknutoVozilo.Count() != 0)
                 {
-                    Vozilo voziloR = (Vozilo)kliknutoVozilo.First();                     if (voziloR.Dostupnost == false)                     {                         return View("../NotifikacijaDostupnost/NotifikacijaDostupnost");                     }                     else                     {                         voziloR.Dostupnost = false;                         db.Vozila.Update(voziloR);                         db.SaveChanges();
-                        return View("../RezervacijaPrijavljen/RezervacijaPrijavljen");
+                    Vozilo voziloR = (Vozilo)kliknutoVozilo.First();                     if (voziloR.Dostupnost == false)                     {                         return View("../NotifikacijaDostupnost/NotifikacijaDostupnost");                     }                     else                     {                         /*voziloR.Dostupnost = false;                         db.Vozila.Update(voziloR);                         db.SaveChanges();
+                        return View("../RezervacijaPrijavljen/RezervacijaPrijavljen");*/
                     }
                 }                     /*db.Vozila.Add(new Vozilo                     {                         Naziv = vozilo,                         Marka = "Buggati",                         BrojVrata = 3,                         BrojSjedista = 5,                         VrstaGoriva1 = Vozilo.VrstaGoriva.BENZIN,                         Dostupnost = false,                         Fotografija = 3,                         OsnovnaCijena = 500,                         Transmisija1 = Vozilo.Transmisija.AUTOMATIK                                              });                     db.SaveChanges();*/
             }

@@ -28,7 +28,6 @@ namespace RentACar.Controllers
             if (email != null && sifra != null)
             {
                 var trenutniEmailovi = db.Osobe.Where((Osoba osoba) => osoba.Email.Equals(email));
-              
 
                     if (trenutniEmailovi.Count() != 0)
                     {
@@ -36,8 +35,11 @@ namespace RentACar.Controllers
                         if (osoba.Sifra.Equals(sifra))
                         {
                             prijavljen = email;
+                            if(osoba is Klijent) { 
                             return View("../PocetnaPrijavljen/PocetnaPrijavljen");
                         }
+                            else return View("../VozilaUposlenik/VozilaUposlenik");
+                    }
                         else return View("../NotifikacijaPogresnaSifra/NotifikacijaPogresnaSifra");
                     }
                     else

@@ -16,50 +16,28 @@ namespace RentACar.Controllers
         {
             return View("../Vozila/Vozila");
         }
-        public IActionResult PretragaOnClick()
-        {
-            return View("../PretragaPrijavljen/PretragaPrijavljen");
-        }
-        public IActionResult KontakOnClick()
-        {
-            return View("../KontaktPrijavljen/KontaktPrijavljen");
-        }
-        public IActionResult UsloviOnClick()
-        {
-            return View("../UsloviPrijavljen/UsloviPrijavljen");
-        }
-        public IActionResult PocetnaOnClick()
-        {
-            return View("../PocetnaPrijavljen/PocetnaPrijavljen");
-        }
         public IActionResult DodajVoziloOnClick()
         {
             return View("../DodajVozilo/DodajVozilo");
         }
-        public IActionResult RezervisiOnClick(string vozilo)
+        public IActionResult VozilaOnClick()
         {
-            if(vozilo != null)
+            return View("../VozilaUposlenik/VozilaUposlenik");
+        }
+        public IActionResult OslobodiOnClick(string vozilo)
+        {
+            if (vozilo != null)
             {
                 var kliknutoVozilo = db.Vozila.Where((Vozilo v) => v.Naziv.Equals(vozilo));
-                if(kliknutoVozilo.Count() == 0)
+                if (kliknutoVozilo.Count() != 0)
                 {
-                    /*db.Vozila.Add(new Vozilo
-                    {
-                        Naziv = vozilo,
-                        Marka = "Buggati",
-                        BrojVrata = 3,
-                        BrojSjedista = 5,
-                        VrstaGoriva1 = Vozilo.VrstaGoriva.BENZIN,
-                        Dostupnost = false,
-                        Fotografija = 3,
-                        OsnovnaCijena = 500,
-                        Transmisija1 = Vozilo.Transmisija.AUTOMATIK
-                        
-                    });
-                    db.SaveChanges();*/
+                    Vozilo voziloR = (Vozilo)kliknutoVozilo.First();
+                    voziloR.Dostupnost = true;
+                    db.Vozila.Update(voziloR);
+                    db.SaveChanges();
                 }
             }
-            return View("../RezervacijaPrijavljen/RezervacijaPrijavljen");
+            return View("../VozilaUposlenik/VozilaUposlenik");
         }
     }
 }
