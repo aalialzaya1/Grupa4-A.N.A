@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "NotifikacijaNeispravanGrad";
+}
+
+
+<div class="popup">
+    <link href="~/css/zaNotifikacijuRezervacije.css" rel="stylesheet" type="text/css" media="all" />
+    <a href="#" class="close">
+
+    </a>
+    <h1>UPOZORENJE!</h1>
+    <p>Mogući gradovi za rezervisanje su: Sarajevo, Zenica, Tuzla</p>
+    <div class="bottom-popup">
+        @Html.ActionLink("Nazad", "NazadOnClick", "NotifikacijaNeispravanGrad", null, new { @class="nazad" })
+    </div>
+</div>
+
+

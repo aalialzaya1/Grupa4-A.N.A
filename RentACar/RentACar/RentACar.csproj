@@ -51,6 +51,7 @@
     <Folder Include="Views\NotifikacijaDostupnost\" />
     <Folder Include="Views\NotifikacijaPogresnaSifra\" />
     <Folder Include="Views\NotifikacijaNemaEmaila\" />
+    <Folder Include="Views\NotifikacijaNeispravanGrad\" />
   </ItemGroup>
   <ItemGroup>
     <Content Update="Views\KontaktPrijavljen\KontaktPrijavljen.cshtml">
