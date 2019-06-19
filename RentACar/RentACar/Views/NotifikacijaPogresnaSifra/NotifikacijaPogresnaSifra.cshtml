@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "NotifikacijaPogresnaSifra";
+}
+
+
+<div class="popup">
+    <link href="~/css/zaNotifikacijuPrijave.css" rel="stylesheet" type="text/css" media="all" />
+    <a href="#" class="close">
+
+    </a>
+    <h1>GREŠKA!</h1>
+    <p>Niste ispravno unijeli šifru</p>
+    <div class="bottom-popup">
+        @Html.ActionLink("Nazad", "NazadOnClick", "NotifikacijaPogresnaSifra", null, new { @class="nazad" })
+    </div>
+</div>
+
+

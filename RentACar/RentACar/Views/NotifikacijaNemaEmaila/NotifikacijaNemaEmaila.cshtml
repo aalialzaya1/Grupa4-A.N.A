@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "NotifikacijaNemaEmaila";
+}
+
+
+<div class="popup">
+    <link href="~/css/zaNotifikacijuPrijave.css" rel="stylesheet" type="text/css" media="all" />
+    <a href="#" class="close">
+
+    </a>
+    <h1>GREŠKA!</h1>
+    <p>Nemate račun sa unesenim emailom</p>
+    <div class="bottom-popup">
+        @Html.ActionLink("Napravi račun", "NazadOnClick", "NotifikacijaNemaEmaila", null, new { @class="nazad" })
+    </div>
+</div>
+
+

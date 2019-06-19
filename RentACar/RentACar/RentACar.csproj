@@ -21,6 +21,7 @@
     <Content Remove="Views\PretragaPrijavljen\Pretraga.cshtml" />
     <Content Remove="Views\PretragaPrijavljen\PretragaPrijavljen.cshtml" />
     <Content Remove="wwwroot\slike\slikaZaAlertPrijave.png" />
+    <Content Remove="wwwroot\slike\slikaZaAlertRezervacije 2.32.25 AM.png" />
     <Content Remove="wwwroot\slike\slikaZaAlertRezervacije.png" />
   </ItemGroup>
   <ItemGroup>
@@ -30,7 +31,6 @@
     <None Include="wwwroot\slike\slikaKontakt.png" />
     <None Include="Views\Pocetna\Pocetna.cshtml" />
     <None Include="wwwroot\slike\slikaZaAlertPrijave.png" />
-    <None Include="wwwroot\slike\slikaZaAlertRezervacije.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\PretragaKlase\" />
@@ -48,9 +48,9 @@
     <Folder Include="Views\NotifikacijaRezervacije2\" />
     <Folder Include="Views\NotifikacijaUspjesnoRezervisano\" />
     <Folder Include="Views\NotifikacijaVecSteUBazi\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="wwwroot\slike\slikaZaAlertRezervacije.png" />
+    <Folder Include="Views\NotifikacijaDostupnost\" />
+    <Folder Include="Views\NotifikacijaPogresnaSifra\" />
+    <Folder Include="Views\NotifikacijaNemaEmaila\" />
   </ItemGroup>
   <ItemGroup>
     <Content Update="Views\KontaktPrijavljen\KontaktPrijavljen.cshtml">

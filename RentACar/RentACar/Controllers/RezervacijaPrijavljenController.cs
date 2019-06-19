@@ -1,10 +1,13 @@
 ﻿using System;
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
+using RentACar.Models;
 
 namespace RentACar.Controllers
 {
     public class RezervacijaPrijavljenController : Controller
     {
+        private static DatabaseContext db = DatabaseContext.getInstance();
         public IActionResult RezervacijaPrijavljen()
         {
             return View();
@@ -19,12 +22,20 @@ namespace RentACar.Controllers
         {
             if (lokacijaVracanja != null && lokacijaPreuzimanja != null && datumDO != null && datumOD != null && imeIPrezime != null && datumRodjenja != null && brojTelefona != null)
             {
-                return View("../NotifikacijaUspjesnoRezervisano/NotifikacijaUspjesnoRezervisano");
+                if (VozilaPrijavljenController.auto != null)
+                {
+                    var kliknutoVozilo = db.Vozila.Where((Vozilo v) => v.Naziv.Equals(VozilaPrijavljenController.auto));
+                    if (kliknutoVozilo.Count() != 0)
+                    {
+                        Vozilo voziloR = (Vozilo)kliknutoVozilo.First();
+                        voziloR.Dostupnost = false;
+                        db.Vozila.Update(voziloR);
+                        db.SaveChanges();
+                        return View("../NotifikacijaUspjesnoRezervisano/NotifikacijaUspjesnoRezervisano");
+                    }
+                }
             }
-            else
-            {
-                return View("../NotifikacijaRezervacije2/NotifikacijaRezervacije2");
-            }
+            return View("../NotifikacijaRezervacije2/NotifikacijaRezervacije2");
             //return View("../Registracija/Registracija");
         }
     }

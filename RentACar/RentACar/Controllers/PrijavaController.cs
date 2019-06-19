@@ -28,12 +28,7 @@ namespace RentACar.Controllers
             {
                 var trenutniEmailovi = db.Osobe.Where((Osoba osoba) => osoba.Email.Equals(email));
               
-                if (trenutniEmailovi.Count() == 0)
-                {
-                    return View("../NotifikacijaPrijave/NotifikacijaPrijave");
-                    //ne treba ova notifikcaija, treba se napraviti
-                }
-                else {
+
                     if (trenutniEmailovi.Count() != 0)
                     {
                         Osoba osoba = db.premEMailu(email);
@@ -41,13 +36,12 @@ namespace RentACar.Controllers
                         {
                             return View("../PocetnaPrijavljen/PocetnaPrijavljen");
                         }
-                        else return View("../NotifikacijaPrijave/NotifikacijaPrijave");
+                        else return View("../NotifikacijaPogresnaSifra/NotifikacijaPogresnaSifra");
                     }
                     else
                     {
-                        return View("../NotifikacijaPrijave/NotifikacijaPrijave");
+                        return View("../NotifikacijaNemaEmaila/NotifikacijaNemaEmaila");
                     }
-                }
             }
             else return View("../NotifikacijaPrijave/NotifikacijaPrijave");
             //return View("../Prijava/Prijava");
