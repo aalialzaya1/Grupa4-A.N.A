@@ -69,12 +69,12 @@ using RentACar.Models;
             WriteLiteral("<!DOCTYPE html>\n<html lang=\"en\">\n");
             EndContext();
             BeginContext(73, 413, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "40130246f8534c4fb6d989f799b2f0ac", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b42f68b1583240d6aabf167bb1b1667b", async() => {
                 BeginContext(79, 233, true);
                 WriteLiteral("\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Sign Up Form by Colorlib</title>\n\n    <!-- Font Icon -->\n    ");
                 EndContext();
                 BeginContext(312, 92, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "0009d1ac73b44e6ab35144fcd5043648", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "4523251155684f11846b5c915a2cede3", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -93,7 +93,7 @@ using RentACar.Models;
                 WriteLiteral("\n\n    <!-- Main css -->\n    ");
                 EndContext();
                 BeginContext(432, 46, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "32f0b4874e0e422b913d8c1ff8744bf2", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "61a36076d92f419f82641751caf48f8f", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -127,7 +127,7 @@ using RentACar.Models;
             WriteLiteral("\n");
             EndContext();
             BeginContext(487, 1835, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e386e6a2b82b4cb189f4222a46834aaf", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7d53c8a8642a46d6ba3560659e34ae26", async() => {
                 BeginContext(493, 338, true);
                 WriteLiteral(@"
 
@@ -163,7 +163,7 @@ using RentACar.Models;
                 WriteLiteral("                    ");
                 EndContext();
                 BeginContext(1200, 875, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "099aa8035bd94c7287ac1d86faa3e359", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "880451c5fa164b89b5f58e2e7ef71195", async() => {
                     BeginContext(1258, 810, true);
                     WriteLiteral(@"
                         <div class=""form-group"">

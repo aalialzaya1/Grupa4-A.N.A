@@ -80,7 +80,7 @@ Released   : 20131127
 ");
             EndContext();
             BeginContext(507, 747, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "43712a2ec0c74a4ebe77a18bd23d86e1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70df60d2d44d4b2682144bab2ce939c6", async() => {
                 BeginContext(513, 298, true);
                 WriteLiteral(@"
     <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
@@ -91,7 +91,7 @@ Released   : 20131127
     ");
                 EndContext();
                 BeginContext(811, 78, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c30ad78af7414565852b7f5ffb8bbc9a", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "8191d7361a744fc8ae79975babc69918", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -112,7 +112,7 @@ Released   : 20131127
                 WriteLiteral("\n    ");
                 EndContext();
                 BeginContext(894, 76, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "15a13987ec2d44238c7c1dae089cd34a", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "637ece0a4a9f4ba6bb33ba86c1d85fae", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -158,7 +158,7 @@ Released   : 20131127
             WriteLiteral("\n");
             EndContext();
             BeginContext(1255, 3800, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7b92b378831945a38af43ac287a9d438", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a835421cb97c42d58737f5ba3af64a8a", async() => {
                 BeginContext(1261, 548, true);
                 WriteLiteral(@"
     <div id=""wrapper"">
