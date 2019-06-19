@@ -266,3 +266,6 @@ C:/Users/CpuInfotech/Desktop/New folder/Grupa4-A.N.A/RentACar/RentACar/obj/Debug
 /Users/amilalakovic/Projects/ooad-2018-2019/Grupa4-A.N.A.git/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/NotifikacijaDostupnost/NotifikacijaDostupnost.g.cshtml.cs
 /Users/amilalakovic/Projects/ooad-2018-2019/Grupa4-A.N.A.git/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/NotifikacijaPogresnaSifra/NotifikacijaPogresnaSifra.g.cshtml.cs
 /Users/amilalakovic/Projects/ooad-2018-2019/Grupa4-A.N.A.git/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/NotifikacijaNemaEmaila/NotifikacijaNemaEmaila.g.cshtml.cs
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/NotifikacijaDostupnost/NotifikacijaDostupnost.g.cshtml.cs
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/NotifikacijaNemaEmaila/NotifikacijaNemaEmaila.g.cshtml.cs
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/NotifikacijaPogresnaSifra/NotifikacijaPogresnaSifra.g.cshtml.cs

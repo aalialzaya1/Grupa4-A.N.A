@@ -7,6 +7,7 @@ namespace RentACar.Controllers
 {
     public class PrijavaController : Controller
     {
+        public static String prijavljen = "";
         private static DatabaseContext db = DatabaseContext.getInstance();
         public IActionResult Prijava()
         {
@@ -34,6 +35,7 @@ namespace RentACar.Controllers
                         Osoba osoba = db.premEMailu(email);
                         if (osoba.Sifra.Equals(sifra))
                         {
+                            prijavljen = email;
                             return View("../PocetnaPrijavljen/PocetnaPrijavljen");
                         }
                         else return View("../NotifikacijaPogresnaSifra/NotifikacijaPogresnaSifra");
