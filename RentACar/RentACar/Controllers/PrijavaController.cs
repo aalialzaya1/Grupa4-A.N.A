@@ -25,7 +25,8 @@ namespace RentACar.Controllers
             {
                 return View("../PocetnaPrijavljen/PocetnaPrijavljen");
             }
-            return View("../Prijava/Prijava");
+            else return View("../NotifikacijaPrijave/NotifikacijaPrijave");
+            //return View("../Prijava/Prijava");
         }
     }
 }
