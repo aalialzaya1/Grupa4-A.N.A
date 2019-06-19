@@ -51,5 +51,9 @@ namespace RentACar.Models
             return Gradovi.Find(gId);
         }
         public List<Vozilo> PretragaPoMarki(String marka)         {             List<Vozilo> vozila = Vozila.Where((Vozilo vozilo) => vozilo.Marka.Equals(marka)).ToList();             return vozila;         }         public List<Vozilo> PretragaPoBrojuSjedista(String brSjedista)         {             List<Vozilo> vozila = Vozila.Where((Vozilo vozilo) => vozilo.BrojSjedista.Equals(brSjedista)).ToList();             return vozila;         }         public List<Vozilo> PretregaPoDatumu()         {             List<Vozilo> vozila = Vozila.Where((Vozilo vozilo) => vozilo.Dostupnost.Equals(1)).ToList();             return vozila;         }
+        public Osoba premEMailu(String email)
+        {
+            return Osobe.Where((Osoba osoba) => osoba.Email.Equals(email)).First();
+        }
     }
 }

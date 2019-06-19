@@ -238,3 +238,13 @@ C:/Users/CpuInfotech/Desktop/New folder (2)/Grupa4-A.N.A/RentACar/RentACar/obj/D
 /Users/amilalakovic/Projects/ooad-2018-2019/Grupa4-A.N.A.git/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/NotifikacijaRezervacije2/NotifikacijaRezervacije2.g.cshtml.cs
 /Users/amilalakovic/Projects/ooad-2018-2019/Grupa4-A.N.A.git/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/NotifikacijaUspjesnoRezervisano/NotifikacijaUspjesnoRezervisano.g.cshtml.cs
 /Users/amilalakovic/Projects/ooad-2018-2019/Grupa4-A.N.A.git/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/NotifikacijaVecSteUBazi/NotifikacijaVecSteUBazi.g.cshtml.cs
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/KontaktPrijavljen/KontaktPrijavljen.g.cshtml.cs
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/NotifikacijaPrijave/NotifikacijaPrijave.g.cshtml.cs
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/NotifikacijaRegistracije/NotifikacijaRegistracije.g.cshtml.cs
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/NotifikacijaRezervacije/NotifikacijaRezervacije.g.cshtml.cs
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/NotifikacijaRezervacije2/NotifikacijaRezervacije2.g.cshtml.cs
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/NotifikacijaUspjesnoRezervisano/NotifikacijaUspjesnoRezervisano.g.cshtml.cs
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/NotifikacijaVecSteUBazi/NotifikacijaVecSteUBazi.g.cshtml.cs
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/RezervacijaPrijavljen/RezervacijaPrijavljen.g.cshtml.cs
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/UsloviPrijavljen/UsloviPrijavljen.g.cshtml.cs
+/Users/nasiha/Desktop/ooad-2018-2019/Grupa4-A.N.A.git/trunk/RentACar/RentACar/obj/Debug/netcoreapp2.1/Razor/Views/VozilaPrijavljen/VozilaPrijavljen.g.cshtml.cs
